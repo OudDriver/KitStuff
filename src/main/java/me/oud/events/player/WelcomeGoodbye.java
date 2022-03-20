@@ -11,7 +11,7 @@ public class WelcomeGoodbye implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
-        p.sendTitle( ChatColor.GREEN+ "Welcome To " + ChatColor.YELLOW + "Duel!", ChatColor.AQUA + "More Like A God Damn UHC Lnao");
+        p.sendTitle( ChatColor.GREEN+ "Welcome To " + ChatColor.YELLOW + "Duel!", ChatColor.AQUA + "More Like A God Damn UHC Lmao");
         e.setJoinMessage("§l§b" + p.getDisplayName() + ChatColor.YELLOW + " Has " + ChatColor.GREEN + "JOINED!");
     }
 
