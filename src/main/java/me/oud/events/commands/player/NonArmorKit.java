@@ -42,7 +42,7 @@ public class NonArmorKit implements CommandExecutor {
 
         PlayerInventory PI = p.getInventory();
 
-        if (command.getName().equalsIgnoreCase("nonarmorkit")) {
+        if (command.getName().equalsIgnoreCase("noarmorkit")) {
             clearArmor(p);
             PI.clear();
             PI.setHelmet(Helmet);

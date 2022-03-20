@@ -6,7 +6,11 @@ commands:
     description: Gives You Armored Kit.
     usage: /<command>
     aliases: akit
-  nonarmorkit:
+  noarmorkit:
     description: Gives You Non-Armored Kit.
     usage: /<command>
     aliases: nakit
+  start:
+    description: Starts The Match.
+    usage: /<command>
+    aliases: match
