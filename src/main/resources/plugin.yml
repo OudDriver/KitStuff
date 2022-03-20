@@ -1,0 +1,3 @@
+name: DuelStuff
+version: '${project.version}'
+main: me.oud.main
