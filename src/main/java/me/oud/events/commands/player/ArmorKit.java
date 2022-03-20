@@ -1,4 +1,4 @@
-package me.oud.events.player.commands;
+package me.oud.events.commands.player;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

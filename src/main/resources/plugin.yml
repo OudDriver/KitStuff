@@ -5,3 +5,8 @@ commands:
   armorkit:
     description: Gives You Armored Kit.
     usage: /<command>
+    aliases: akit
+  nonarmorkit:
+    description: Gives You Non-Armored Kit.
+    usage: /<command>
+    aliases: nakit
