@@ -11,12 +11,13 @@ public class WelcomeGoodbye implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
-        e.setJoinMessage(ChatColor.BOLD + "" + ChatColor.AQUA + p.getDisplayName() + ChatColor.YELLOW + " Has " + ChatColor.GREEN + "JOINED!");
+        p.sendTitle( ChatColor.GREEN+ "Welcome To " + ChatColor.YELLOW + "Duel!", ChatColor.AQUA + "More Like A God Damn UHC Lnao");
+        e.setJoinMessage("§l§b" + p.getDisplayName() + ChatColor.YELLOW + " Has " + ChatColor.GREEN + "JOINED!");
     }
 
     @EventHandler
     public void onLeave(PlayerQuitEvent e) {
         Player p = e.getPlayer();
-        e.setQuitMessage(ChatColor.BOLD + "" + ChatColor.AQUA + p.getDisplayName() + ChatColor.YELLOW + " Has " + ChatColor.GREEN + "Quitted!");
+        e.setQuitMessage("§l§b" + p.getDisplayName() + ChatColor.YELLOW + " Has " + ChatColor.GREEN + "QUITTED!");
     }
 }
