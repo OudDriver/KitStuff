@@ -1,3 +1,7 @@
 name: DuelStuff
 version: '${project.version}'
 main: me.oud.main
+commands:
+  armorkit:
+    description: Gives You Armored Kit.
+    usage: /<command>
