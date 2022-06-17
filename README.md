@@ -1,6 +1,5 @@
-# KitStuff
+# Kit Project
 
-## I am 2 Bored
+## ignore
 
-It Is Just Some Random Kit Project
-(and btw it is still in prograss)
+
